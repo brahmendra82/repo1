@@ -5,14 +5,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: firststep
+        uses: actions/checkout@v4
       - run: echo "Brahmendra"    
   job2:
     runs-on: windows-latest
     steps:
       - name: firststep
+        uses: actions/checkout@v4
       - run: echo "Chandra"  
   job3:
     runs-on: ubuntu-latest
     steps:
       - name: firststep
+        uses: actions/checkout@v4
       - run: echo "Edara"  
